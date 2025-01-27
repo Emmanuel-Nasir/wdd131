@@ -1,0 +1,14 @@
+Color Variables
+:root {
+    --primary-color: #3539BD;
+    --secondary-color: #333;
+    --accent1-color: #FFF13B;
+    --accent2-color: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 400;
+}
