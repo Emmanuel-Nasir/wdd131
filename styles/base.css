@@ -38,6 +38,10 @@ nav {
     color: var(--white);
     text-decoration: none;
   }
+  nav a:hover{
+    background-color: var(--brown);
+    font-weight: bolder;
+  }
   main{
     margin: auto;
     text-align: justify;
@@ -103,4 +107,30 @@ figcaption{
   text-align: center;
   font-style: italic;
   font-weight: lighter;
+}
+footer {
+  font-size: 0.9rem;
+  padding: 1rem;
+  background-color: var(--blue);
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+.highlight{
+  color: var(--yellow);
+}
+.note{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  padding: 50px;
+  font-size: 15px;
+}
+a,
+a:visited{
+  color:var(--blue);
 }
