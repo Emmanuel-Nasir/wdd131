@@ -9,12 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wdth@0,75..100;1,75..100&display=swap" rel="stylesheet">
-    <link href="temples.css" rel="stylesheet">
+    <link href="styles/temples.css" rel="stylesheet">
+    <link href="styles/temples-large.css" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+
 </head>
 <body>
-    <header>
+<header>
+    <img src="./images/salt_lake_temple.jpeg" alt="salt_lake_temple"/>
         <h1>Temple Album</h1>
-        <nav>
+        <button id="navBtn">&#9776</button>
+        <nav id="nav">
             <a href="#">Home</a>
             <a href="#">Old</a>
             <a href="#">New</a>
@@ -22,54 +27,57 @@
             <a href="#">Small</a>
         </nav>
     </header>
-    <main>
+    <section class="sub-header">
         <h1>Home</h1>
+    </section>
+    <main>
+
         <figure>
-            <img src="./images/aba_temple.jpeg" alt="aba_temple"/>
+            <img class="image" src="./images/aba_temple.jpeg" alt="aba_temple"/>
         <figcaption>Aba Temple</figcaption>
         </figure>
         <figure>
-            <img src="./images/ghana_temple.jpeg" alt="ghana_temple"/>
+            <img class="image" src="./images/ghana_temple.jpeg" alt="ghana_temple"/>
         <figcaption>Ghana Temple</figcaption>
         </figure>
         <figure>
-        <img src="./images/idaho_falls_temple.jpeg" alt="idaho_falls_temple"/>
+        <img class="image" src="./images/idaho_falls_temple.jpeg" alt="idaho_falls_temple"/>
         <figcaption>Idaho Falls Temple</figcaption>
         </figure>
         <figure>
-            <img src="./images/mesa_arizona_temple.jpeg" alt="mesa_arizona_temple"/>
+            <img class="image" src="./images/mesa_arizona_temple.jpeg" alt="mesa_arizona_temple"/>
         <figcaption>Mesa Arizona Temple</figcaption>
         </figure>
         <figure>
-            <img src="./images/oakland_california_temple.jpeg" alt="oakland_california_temple"/>
+            <img class="image" src="./images/oakland_california_temple.jpeg" alt="oakland_california_temple"/>
         <figcaption>Oakland California Temple</figcaption>
         </figure>
         <figure>
-            <img src="./images/phoenix_arizona_temple.jpeg" alt="phoenix_arizona_temple"/>
+            <img class="image" src="./images/phoenix_arizona_temple.jpeg" alt="phoenix_arizona_temple"/>
         <figcaption>Phoenix Arizona Temple</figcaption>
         </figure>
         <figure>
-            <img src="./images/pocatello_idaho_temple.jpeg" alt="pocatello_idaho_temple"/>
+            <img class="image" src="./images/pocatello_idaho_temple.jpeg" alt="pocatello_idaho_temple"/>
         <figcaption>Pocatello Idaho Temple</figcaption>     
         </figure>
         <figure>    
-        <img src="./images/rome_italy_temple.jpeg" alt="rome_italy_temple"/>
+        <img class="image" src="./images/rome_italy_temple.jpeg" alt="rome_italy_temple"/>
         <figcaption>Rome Italy Temple</figcaption>
         </figure>
-        <figure>    
+        <!-- <figure>    
         <img src="./images/salt_lake_temple.jpeg" alt="salt_lake_temple"/>
         <figcaption>Salt Lake Temple</figcaption>
-        </figure>
+        </figure> -->
         
         <figure>
-        <img src="./images/washington_dc_temple.jpeg" alt="washington_dc_temple"/>
+        <img class="image" src="./images/washington_dc_temple.jpeg" alt="washington_dc_temple"/>
         <figcaption>Washington DC Temple</figcaption>
         </figure>
     </main>
     <footer>
         <p>
              <span id="currentYear"></span>
-             🌺 Emmanuel Nasir 🌺Nigeria I am from Ogun state
+             🌺 Emmanuel Nasir 🌺Nigeria 
         </p>
         <p class="highlight" id="lastModified"></p>
     </footer>
