@@ -34,7 +34,7 @@
 }
 .Data h2{
     position: relative;
-    top: 0px;
+    top: 10px;
     left: -10px;
     text-align: left;
     color: #fff;
@@ -59,11 +59,11 @@
 }
 .weather h2{
     position: relative;
-    top: -17px;
+    top: -5px;
     left: -30px;
     text-align: left;
     color: #fff;
     background-color:#20784a ;
-    padding: 10px;
+    padding: 5px;
 }
 }
