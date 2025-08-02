@@ -27,3 +27,7 @@ function displayWindChill() {
 
 // Run this when the page is done loading
 window.addEventListener("load", displayWindChill);
+
+let d = new Date();
+document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
