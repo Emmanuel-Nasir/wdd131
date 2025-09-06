@@ -1,24 +1,6 @@
-<!DOCTYPE html>
+<!DOCTYPE html>     
 <html lang="en-US">
 <head>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WDD 131 - Temple Album - Emmanuel Nasir</title>
-  <meta name="author" content="Emmanuel Nasir" />
-  <meta name="description" content="WDD 131 - Temple Album of various temples that are responsive." />
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-
-  <!-- CSS -->
-  <link href="styles/temples.css" rel="stylesheet" />
-  <link href="styles/temples-large.css" rel="stylesheet" />
-
-  <!-- JavaScript -->
-  <script src="scripts/temples.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Emmanuel Nasir</title>
@@ -31,68 +13,73 @@
     <link href="styles/temples-large.css" rel="stylesheet">
     <script src="scripts/temples.js" defer></script>
 
-
 </head>
-
 <body>
+<header>
+    <img src="./images/salt_lake_temple.webp" alt="salt_lake_temple"/>
+        <h1>Temple Album</h1>
+        <button id="navBtn">&#9776</button>
+        <nav id="nav">
+            <a href="#">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+    <section class="sub-header">
+        <h1>Home</h1>
+    </section>
+    <main>
 
-  <header>
-    <h1>Temple Album</h1>
-    <button class="hamburger">☰</button>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Old</a>
-      <a href="#">New</a>
-      <a href="#">Large</a>
-      <a href="#">Small</a>
-    </nav>
-  </header>
-
-  <main>
-    <h1 class="page-title">Home</h1>
-    <div class="temple-grid">
-    <figure>
-      <img src="images/aba_temple.jpeg" alt="Aba Temple" />
-      <figcaption>Aba Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/ghana_temple.jpeg" alt="Ghana Temple" />
-      <figcaption>Ghana Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/idaho_falls_temple.jpeg" alt="Idaho Falls Temple" />
-      <figcaption>Idaho Falls Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/mesa_arizona_temple.jpeg" alt="Mesa Arizona Temple" />
-      <figcaption>Mesa Arizona Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/oakland_california_temple.jpeg" alt="Oakland California Temple" />
-      <figcaption>Oakland California Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/phoenix_arizona_temple.jpeg" alt="Phoenix Arizona Temple" />
-      <figcaption>Phoenix Arizona Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/pocatello_idaho_temple.jpeg" alt="Pocatello Idaho Temple" />
-      <figcaption>Pocatello Idaho Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/rome_italy_temple.jpeg" alt="Rome Italy Temple" />
-      <figcaption>Rome Italy Temple</figcaption>
-    </figure>
-    <figure>
-      <img src="images/washington_dc_temple.jpeg" alt="Washington DC Temple" />
-      <figcaption>Washington DC Temple</figcaption>
-    </figure>
-    </div>
-  </main>
-
-  <footer>
-    <p><span id="currentYear"></span> 🌺 Emmanuel Nasir 🌺 Nigeria | Ogun State</p>
-    <p class="highlight" id="lastModified"></p>
-  </footer>
+        <figure>
+            <img class="image" src="./images/aba_temple.webp" alt="aba_temple" loading="lazy"/>
+        <figcaption>Aba Temple</figcaption>
+        </figure>
+        <figure>
+            <img class="image" src="./images/ghana_temple.webp" alt="ghana_temple" loading="lazy"/>
+        <figcaption>Ghana Temple</figcaption>
+        </figure>
+        <figure>
+        <img class="image" src="./images/idaho_falls_temple.webp" alt="idaho_falls_temple" loading="lazy"/>
+        <figcaption>Idaho Falls Temple</figcaption>
+        </figure>
+        <figure>
+            <img class="image" src="./images/mesa_arizona_temple.webp" alt="mesa_arizona_temple" loading="lazy"/>
+        <figcaption>Mesa Arizona Temple</figcaption>
+        </figure>
+        <figure>
+            <img class="image" src="./images/oakland_california_temple.webp" alt="oakland_california_temple" loading="lazy"/>
+        <figcaption>Oakland California Temple</figcaption>
+        </figure>
+        <figure>
+            <img class="image" src="./images/phoenix_arizona_temple.webp" alt="phoenix_arizona_temple" loading="lazy"/>
+        <figcaption>Phoenix Arizona Temple</figcaption>
+        </figure>
+        <figure>
+            <img class="image" src="./images/pocatello_idaho_temple.webp" alt="pocatello_idaho_temple" loading="lazy"/>
+        <figcaption>Pocatello Idaho Temple</figcaption>     
+        </figure>
+        <figure>    
+        <img class="image" src="./images/rome_italy_temple.webp" alt="rome_italy_temple" loading="lazy"/>
+        <figcaption>Rome Italy Temple</figcaption>
+        </figure>
+        <!-- <figure>    
+        <img src="./images/salt_lake_temple.jpeg" alt="salt_lake_temple"/>
+        <figcaption>Salt Lake Temple</figcaption>
+        </figure> -->
+        
+        <figure>
+        <img class="image" src="./images/washington_dc_temple.wwebp" alt="washington_dc_temple" loading ="lazy"/>
+        <figcaption>Washington DC Temple</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <p>
+             <span id="currentYear"></span>
+             🌺 Emmanuel Nasir 🌺Nigeria 
+        </p>
+        <p class="highlight" id="lastModified"></p>
+    </footer>
 </body>
 </html>
