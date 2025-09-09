@@ -130,7 +130,6 @@ footer p {
 .student-name{
   color: var(--yellow);
 }
-
 .note{
   display: flex;
   flex-direction: column;
