@@ -26,13 +26,20 @@ body{
     display: flex;
     flex-direction: column;
 }
-.head{
+#student-name{
     color: var(--white);
     background-color: var(--blue);
     text-align: center;
     padding: 20px;
     font-size: larger;
 }
+#course-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--black);
+    
+  }
 
 nav {
     background-color: #333;
