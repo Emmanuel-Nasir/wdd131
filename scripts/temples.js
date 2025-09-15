@@ -1,16 +1,9 @@
 // scripts/temples.js
-
-document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.querySelector(".hamburger");
-  const nav = document.querySelector("nav");
-
-  hamburger.addEventListener("click", () => {
-    const visible = nav.style.display === "flex";
-    nav.style.display = visible ? "none" : "flex";
-    hamburger.textContent = visible ? "☰" : "✖";
-  });
-
+const hambutton = document.querySelector('#navBtn');
+const navLinks = document.querySelector('#nav');
+hambutton.addEventListener('click', () => {navLinks.classList.toggle('active')});
   // Footer updates
-  document.getElementById("currentYear").textContent = new Date().getFullYear();
-  document.getElementById("lastModified").textContent = `Last modified: ${document.lastModified}`;
-});
+let d = new Date();
+document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
+
