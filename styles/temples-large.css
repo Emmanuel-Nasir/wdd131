@@ -1,6 +1,6 @@
  /* styles/temples-large.css */
 @media (min-width: 1000px) {
-    main{
+    .main{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
