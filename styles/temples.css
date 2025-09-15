@@ -70,10 +70,8 @@ header b em{
 section{
     text-align: center;
 }
-main{
-    text-align: center;
-}
-.main {
+
+main {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -100,6 +98,11 @@ figure{
     border-radius: 15px;
     padding: 1.5rem;
     box-shadow: 7px 7px 5px rgba(128, 128, 128, 0.616);
+}
+#fig{
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 figure:hover{
     box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.616);
