@@ -27,10 +27,10 @@ header img{
     border-radius: 50%;
     width: 3rem;
 }
-header b em{
+/* header b em{
     margin-left: 50px;
     font-size: xx-large;
-}
+} */
 
 #navBtn{
    display: flex;
