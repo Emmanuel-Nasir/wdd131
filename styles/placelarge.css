@@ -1,4 +1,13 @@
-@media(min-width: 1000px){
+:root{
+    --primary-color: #d21034;
+    --secondary-color: #007849;
+    --font-color: #ffffff;
+    --background-color: #d6d6d6;
+    --overlay-background: rgba(255,255,255, 0.85);
+    --font-family: 'Lato', sans-serif;
+    --overlay-font-color: #000000;
+}
+@media (min-width: 800px) {
     picture.images{
         position: relative;
         display: block;
@@ -25,20 +34,21 @@
     position:absolute;
     top:130px;
     left: 20px;
-    background-color: rgba(255,255,255, 0.85);
-    color: #000;
+    background-color: var(--overlay-background);
+    color: var(--overlay-font-color);
     border-radius: 10px;
     /* width: 250px; */
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     z-index: 2;
 }
+
 .Data h2{
     position: relative;
     top: 10px;
     left: -10px;
     text-align: left;
-    color: #fff;
-    background-color:#20784a ;
+    color: var(--font-color);
+    background-color: var(--secondary-color);
     padding: 10px;
 }
 .Data p{
@@ -50,7 +60,7 @@
     top: 500px;
     right: 20px;
     background-color: rgba(255,255,255, 0.85);
-    color: #000;
+    color: var(--overlay-font-color);
     padding: 1rem;
     border-radius: 10px;
     width: 250px;
@@ -62,8 +72,8 @@
     top: -5px;
     left: -30px;
     text-align: left;
-    color: #fff;
-    background-color:#20784a ;
+    color: var(--font-color);
+    background-color: var(--secondary-color);
     padding: 5px;
 }
 }
