@@ -76,4 +76,10 @@
     background-color: var(--secondary-color);
     padding: 5px;
 }
+.weather-icon-container{
+    content: '🌤️';
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    vertical-align: middle;
+}
 }
