@@ -55,3 +55,9 @@ footer {
 .overlay{
     display: none;
 }
+.weather-icon{
+    display: inline;
+}
+.weather-icon-container::after{
+    display: none;
+}
