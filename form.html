@@ -21,7 +21,24 @@
     
     <main>
      <form method="get"action="review.html">
-
+        <label>Product Name</label>
+        <select name="product" id="product" required>
+            <option value="" disabled selected>Select a product</option>
+            <option value="laptop">Laptop</option>
+            <option value="smartphone">Smartphone</option>
+            <option value="tablet">Tablet</option>
+            <option value="headphones">Headphones</option>
+            <option value="smartwatch">Smartwatch</option>
+    
+    <!-- OVERALL RATING -->
+    <div>
+        Overall Rating:
+    </div>
+    <label><input type="radio" name="rating" value="1" required> &star;</label>
+    <label><input type="radio" name="rating" value="2"> &star;&star;</label>
+    <label><input type="radio" name="rating" value="3"> &star;&star;&star;</label>
+    <label><input type="radio" name="rating" value="4"> &star;&star;&star;&star;</label>
+    <label><input type="radio" name="rating" value="5"> &star;&star;&star;&star;&star;</label>
      </form>
 
     </main>
